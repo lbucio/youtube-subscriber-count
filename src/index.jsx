@@ -24,7 +24,7 @@ const SubscriberCount = () => {
                 // Update the state with the count
                 setCount(count);
                 setVideoCount(videoCount)
-                setViewCount(viewCount)
+                setViewCount(Number(viewCount).toLocaleString("en-US"))
             })
             .catch(error => {
                 // Handle any errors
