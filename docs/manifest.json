@@ -1,6 +1,6 @@
 {
-  "short_name": "PokéGuide",
-  "name": "PokéGuide | Sleep",
+  "short_name": "LBucioYT",
+  "name": "Larry Bucio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#DC1826",
-  "background_color": "#F5F5F5"
+  "theme_color": "#333333",
+  "background_color": "#333333"
 }
