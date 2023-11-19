@@ -11,7 +11,6 @@ class SubscriberCount extends React.Component {
         this.state = {
             count: 'Loading...'
         };
-        console.log(process.env)
     }
 
     // Fetch the subscriber count from the YouTube API when the component mounts
