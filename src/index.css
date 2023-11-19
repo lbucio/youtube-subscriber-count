@@ -3,17 +3,37 @@ html, body {
     margin: 0;
     background-color: #333;
     height: 100%;
+    font-family: sans-serif;
 }
 
 h1 {
     margin: 0;
-    font-family: sans-serif;
     font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h2 {
+    margin: -6px 0 16px 0;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #aaaaaa;
 }
 
 #root {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100%;
+}
+
+.sub-stats {
+    display: flex;
+    color: #aaaaaa;
+}
+
+.sub-stats div {
+    padding: 0 8px;
 }
